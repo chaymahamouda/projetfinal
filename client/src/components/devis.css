@@ -1,0 +1,18 @@
+
+  .devis{
+    background-image: url("https://mobimg.b-cdn.net/v3/fetch/04/04bd376957afb858a0625b76a7fced19.jpeg");
+    width: 100%;
+    height: 750px;
+    opacity: 0.9;
+   }
+   .devis .titre .deviss{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+   
+   }
+   .devis .titre .deviss h1{
+    text-align:center ;
+    color: white;
+   }
+  

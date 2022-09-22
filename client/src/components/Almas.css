@@ -1,0 +1,350 @@
+.App {
+    text-align: center;
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(103, 186, 228, 0.46);
+    padding: 0px, 100px;
+    position: fixed;
+    line-height: 75px;
+    z-index: 9999999999999999999;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar-color{
+    background-color: rgb(103, 186, 228);
+  
+  }
+  .navbar .logouser{
+  width:auto;
+  height: 100%;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  }
+  .navbar .logouser img{
+    width: 60px;
+    }
+    .navbar .logouser h1{
+     color: white;
+     margin-left: 10px;
+     font-size: 25px;
+    
+      }
+  
+    .navbar .logouser .login{
+      width: 150px;
+      height: 100%;
+      margin-left: 10px;
+     
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+      }
+      .navbar .logouser .login div{
+        width: 160px;
+      height: 40%;
+     
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+        }
+        .navbar .logouser .login div p{
+   font-weight: 700;
+        color: white;
+          }
+          .navbar .logouser .login div span{
+          
+                 color: white;
+                   }
+          .navbar .voyage{
+            width: 600px;
+            height: 100%;
+           
+            display: flex;
+          justify-content: space-around;
+          align-items: center;
+  
+            }
+            .navbar .voyage div{
+            font-weight: 700;
+            color: white;
+            height: 69px;
+    font-size: 20px;
+              }
+             
+             
+                  .Home{
+                    width: 100%;
+                    height: auto;
+                    
+                    top: 0;
+                   
+                    
+                  }
+                  .Home .video{
+                   width: 100%;
+                   height: 700px;
+                   overflow: hidden;
+                                 }
+                  .Home .video video{
+                    width: 100%;
+                    margin-top: -20px;
+                   }
+                   .Home .populaire{
+                    width: 90%;
+                  
+                    height: 300px;
+                     
+                  
+                    margin:-40px auto;
+                    display: flex;
+                    justify-content: space-around;
+                    
+                   }
+                   .Home .populaire .cardpop{
+                    width: 320px;
+                    height: 100%;
+                    background-color:transparent;
+                    border-radius: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    overflow: hidden;
+                   }
+                   .Home .populaire .namepop{
+                    width:100%;
+                    height: 72px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                    background-color: rgba(7, 11, 14, 0.731);
+                    color: white;
+                    font-size: 25px;
+                    font-weight: 600;
+                   }
+                   .Home .populaire .img{
+                    width:100%;
+                    height: 228px;
+                    background-color: rgba(103, 186, 228, 0.731);
+                   }
+                   .Home .populaire .img img{
+                    width:100%;
+                    height: 100%;
+                   }
+             .Home .description{
+              
+              width: 100%;
+              height: 300px;
+              
+             }
+             .Home .description h2{
+              margin-top: 5px;
+             }
+             .Home .description p{
+              width: 80%;
+              text-align: center;
+              height: 80px;
+              margin: 0 auto;
+              border-bottom: 1px rgba(128, 128, 128, 0.25) solid;
+             }
+             .Home .description .p{
+              border-bottom: none;
+              height: 0px;
+            
+             }
+             .Home .description h4{
+               margin-top: 20px;
+              
+               }
+             .Home .description .img3{
+              margin-top: 70px;
+             
+             }
+          /*footer */
+  
+  
+          .footer{
+            display: flex;
+            width: 100%;
+      
+            margin-top: 50px;
+            background-color: #67bbe4c7;
+            height: 253px;
+            color:rgb(4 94 140);
+          
+          }
+  
+          .boxleft{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 50px;
+          }
+          .boxleft p{
+            margin-left: -250px;
+          }
+  
+          .boxleft table{
+            margin: 10px;
+            width:113%;
+          }
+         th{
+            margin: 20px;
+          }
+          .boxright{
+            display: flex;
+            margin-top: 30px;
+            margin-left: 207px;
+           
+          }
+          .box1{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10px;
+            text-align: left;
+          
+         
+          }
+  
+          .box2{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 80px;
+            text-align: left;
+          }
+          .box2 svg{
+         
+            margin:10px;
+          }
+          .part4{
+           
+            width: 100%;
+            margin-top: 30px;
+            height: 500px;
+            
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            
+          }
+          .part4 h4{
+            width: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left:80px ;
+          }
+          .part4 .les-images{
+  width: 100%;
+          }
+          .part4 .les-images .div1{
+            width: 25%;
+            height: 100%;
+            margin-left: 450px;
+            
+            
+          }
+          .part4 .les-images .div1 .istanbul {
+            width: 100%;
+            height: 100%;
+  
+  
+          }
+          .part4 .les-images .div1 .istanbul img{
+            width: 100%;
+            height: 100%;
+            margin-left: -650px;
+  
+          }
+          .part4 .div2 {
+            width: 25%;
+            height: 100%;
+            margin-left: 1035px;
+            margin-top: -500px;
+          
+          }
+         .part4 .div2 .zanzibar {
+          width: 100%;
+          height: 100%;
+         }
+         .part4 .div2 .zanzibar .img2{
+          width: 25%;
+          margin: 0 auto;
+          height: 50%;
+          margin-top: 2.2px;
+         }
+         .part4 .div2 .zanzibar .img2 img{
+          width:250px; 
+          height: 248px;
+          margin-left: -1200px;
+         }
+         .part4 .div3{
+          width: 25%;
+          height: 100%;
+          margin: 0 auto;
+         
+        
+        }
+        .part4 .div3 .mexique .img3{
+          width: 25%;
+          height: 33.33%;
+          margin-top: -502px;
+          margin-left: -426px;
+  
+          
+         }
+         .part4 .div3 .mexique .img3 img{
+          width: 250px;
+          height: 164px;
+          margin-top: 2.7px;
+         
+         }
+         .part4 .div4 {
+          width: 25%;
+          height: 100%;
+          margin: 0 auto;
+        
+        }
+         .part4 .div4 .malta {
+          width: 25%;
+          height: 25%;
+          margin-top: -500px;
+          margin-left: -170px;
+         }
+         .part4 .div4 .malta .img4{
+          width: 25%;
+          height: 25%;
+         }
+         .part4 .div4 .malta .img4 img{
+          width: 250px;
+          height: 122px;
+          margin-top: 2.9px;
+         
+         }
+         .ligne{
+          border-Top: 1px solid rgba(128, 128, 128, 0.25);
+          margin-top: 259px
+         
+         }
+         
+
+         
+         
+         .fade.modal.show {
+          position: absolute;
+          top: 0;
+          z-index: 99999999999999;
+          width: 100%;
+          height: 100%;
+          background-color: white;
+      }
+     

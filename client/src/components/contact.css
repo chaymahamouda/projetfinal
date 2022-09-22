@@ -1,0 +1,137 @@
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    padding:50px;
+    line-height: 75px;
+    top: 0;
+  
+  }
+.contact .partie1{
+    width:80%;
+    height: 90%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+    }
+    .contact .partie1 img{
+      width: 60px;
+       margin-right:10px; 
+       margin-top: 10px;
+      }
+      .contact .partie1 h1{
+      margin-right: -250px;
+      font-family: 'robotoblack', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 900;
+      line-height: 48px;
+      letter-spacing: -1px;
+      color:rgb(4 94 140);
+
+        }
+    .contact .partie2{
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+            height: 253px;
+            justify-content: space-around;
+          }
+    .contact .partie2 h2{
+        font-family: 'robotoblack', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 900;
+        line-height: 42px;
+        letter-spacing: -1px;
+        color:rgb(4 94 140);
+    }
+    .partie2-boxleft{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+      }
+     
+
+      .partie2-boxleft .email{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-right: 90px;
+      }
+      .partie2-boxleft .email svg{
+        margin-top: -20px;
+      }
+      .partie2-boxleft .email .emaill{
+        margin-left: -550px;
+      }
+      .partie2-boxleft .email p{
+     font-size: 17px;
+     font-weight: 600;
+     line-height: 30px;
+      }
+      .partie2-boxleft .email .butt{
+        width: 200px;
+       height: 40px;
+       border: none;
+       border-radius: 20px;
+       background-color: rgb(4 94 140);
+       color: white;
+    font-weight: 400; 
+    margin-top: 20px;
+        }
+     .partie2-boxleft .email .butt .appel{ 
+margin-top:5px ;  
+    }
+
+    .partie2-boxright{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 30px;
+        margin-left: 60px;
+      }
+     
+
+      .partie2-boxright .email{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-right: 90px;
+      }
+      .partie2-boxright .email svg{
+        margin-top: -20px;
+      }
+      .partie2-boxright .email .telephone{
+        margin-left: -320px;
+      }
+      .partie2-boxright .email p{
+     font-size: 17px;
+     font-weight: 600;
+     line-height: 30px;
+      }
+      .partie2-boxright .email .butt{
+       width: 200px;
+       height: 40px;
+       border: none;
+       border-radius: 20px;
+       background-color: rgb(4 94 140);
+       color: white;
+    font-weight: 400; 
+    margin-top: 20px;
+        }
+        .partie2-boxright .email .butt .appel{ 
+          margin-top:5px ;  
+              }
+        
+       
